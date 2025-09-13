@@ -16,5 +16,5 @@ class geeksforgeeksAPI(Resource):
 api.add_resource(geeksforgeeksAPI, "/<string:username>")
 
 # ⚠️ Remove app.run() when deploying to Vercel
-# if __name__ == "__main__":
-#     app.run(host="0.0.0.0", port=5000, debug=True)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=True)
